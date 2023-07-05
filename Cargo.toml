@@ -1,0 +1,8 @@
+[package]
+name = "MouseFixerRust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+toy-arms = {version = "0.9.4", features = ["external"]}
+winapi = { version = "0.3", features = ["winuser"] }
